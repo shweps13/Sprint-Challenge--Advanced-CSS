@@ -273,3 +273,24 @@ footer {
   background-color: white;
   color: black;
 }
+@media (max-width: 500px) {
+  .home .visit-planets .form .bntform {
+    display: block;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+    height: 12%;
+    font-size: 2rem;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 2%;
+    margin: 5% 0 0 0;
+    padding: 2% 0;
+  }
+  .home .visit-planets .form .bntform:hover {
+    background-color: white;
+    color: black;
+  }
+}
