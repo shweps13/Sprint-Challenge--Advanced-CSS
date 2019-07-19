@@ -209,6 +209,10 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro .imgtop {
+  width: 100%;
+  border-radius: 5px;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -219,6 +223,18 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img {
+    display: block;
+    width: 100%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;

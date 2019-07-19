@@ -11,20 +11,36 @@
     p {
       padding:0 15px;
     }
-  
+    .imgtop {
+      width: 100%;
+      border-radius: 5px;
+    }
+    
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
     }
+    // Mobile view of pic
+    @media @mobile {
+      img {
+        display: block;
+        width: 100%;
+      }
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+      }
   }
 
   .visit-planets {
