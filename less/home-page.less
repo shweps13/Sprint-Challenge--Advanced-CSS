@@ -76,15 +76,32 @@
         .button(black, 33%, white);
       }
     }
-
+    
+    .walk-img-mob {
+      display: none;
+    }
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+    
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+    // Mobile view of pic
+    @media @mobile {
+      padding: 5% 0 10% 0;
+      margin: 0 4%;
+      .walk-text {
+        width: 100%;
+        .btn {
+          .buttonmob(black, 100%, white);
+        }
+      }
+      .walk-img {
+        display: none;
       }
     }
   }
