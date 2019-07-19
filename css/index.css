@@ -174,8 +174,8 @@ p {
   flex-direction: column;
 }
 .headertop .top .logo {
-  display: flex;
   width: 100%;
+  display: flex;
   justify-content: center;
 }
 .headertop .top .nav {
