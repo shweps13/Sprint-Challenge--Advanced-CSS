@@ -94,15 +94,30 @@
     @media @mobile {
       padding: 5% 0 10% 0;
       margin: 0 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      .walk-img-mob {
+        display: flex;
+        width: 100%;
+        padding-bottom: 4%;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+        
+      }
       .walk-text {
         width: 100%;
         .btn {
-          .buttonmob(black, 100%, white);
+          .buttonmobile(black, 100%, white);
         }
       }
       .walk-img {
         display: none;
       }
+      
     }
   }
 }// home
