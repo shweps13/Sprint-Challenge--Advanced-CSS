@@ -1,1 +1,32 @@
 // Navigation code here
+.headertop {
+    background-color: @headercolor;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 0;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .logo {
+            .displaynav();
+        }
+        .nav {
+            .displaynav();
+            padding-top: 3%;
+            // background-color: yellow;
+            a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: black;
+            margin-right: 3%;
+            }
+            a:last-child {
+            margin-right: 0;
+            }
+        
+        }
+    }
+}

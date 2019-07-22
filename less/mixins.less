@@ -1,1 +1,46 @@
 // Mixins Here
+.button(@bg-color, @width, @font){
+    display: block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    height: 12%;
+    font-size: 2rem;
+    border-radius: 5px;
+    color:@font;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 2%;
+  
+     &:hover{
+      background-color:@font;
+      color:@bg-color; 
+    }
+}
+.buttonmobile(@bg-color, @width, @font){
+    display: inline-block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    font-size: 2rem;
+    border-radius: 5px;
+    color:@font;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 4% 0;
+  
+     &:hover{
+      background-color:@font;
+      color:@bg-color; 
+    }
+}
+
+.displaynav(){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.displaywalk(){
+    display: flex;
+    justify-content: center;
+}
